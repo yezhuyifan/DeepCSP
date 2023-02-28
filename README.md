@@ -27,7 +27,7 @@ Note: If the option is NULL, default value "--test" will be used.
 ## DeepCSP for generating crystal structure structure. ##  
 By implementing DeepCSP, users can generate crystal structures for marketed drugs and evaluate the accuracy of the generated crystal structures against their real counterparts.  
   
-### Dependency package: ###  
+### Dependency packages: ###  
 ctgan == 0.5.0  
 numpy == 1.19.5  
 pandas == 1.1.4  
@@ -42,6 +42,6 @@ tqdm == 4.62.3
 •	Enter the current directory:   
 cd ./deepcsp/monomorph/ or cd ./deepcsp/polymorph/  
 •	Usage:  
-Generate crystal structures for monomorph or polymorph drugs: python generate.py.  
-Evaluate the generated crystal structures: python evaluate.py.  
-We have provided the real structures and generated crystal structures of the marketed drugs.  
+a) Generate crystal structures for monomorph or polymorph drugs: python generate.py.  
+b) Evaluate the generated crystal structures: python evaluate.py.  
+c) We have provided the real structures and generated crystal structures of the marketed drugs.  
