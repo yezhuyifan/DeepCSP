@@ -1,9 +1,9 @@
 # Organic Crystal Structure Prediction via Coupled Generative Adversarial Networks and Graph Convolutional Networks #
 
-# MolGAT for predicting crystal structure density. #
+## MolGAT for predicting crystal structure density. ##
 After installing the necessary dependency package, users can follow the usage instructions to validate the MolGAT performance and predict the crystal structure density for both marketed and case study drugs.
 
-## Dependency package: ##
+### Dependency package: ###
 autograd == 1.2
 numpy == 1.19.2
 pandas == 1.1.2
@@ -12,7 +12,7 @@ scikit-learn == 0.23.2
 six == 1.15.0
 tensorflow == 1.2.0
 
-## Usage instruction: ##
+### Usage instruction: ###
 •	Enter the current directory: cd ./deepcsp/
 •	Usage: python predict_test.py [Option]
 [Option]
@@ -22,10 +22,10 @@ tensorflow == 1.2.0
     -c, --case  --Predicting density for case study drugs
 Note: If the option is NULL, default value "--test" will be used.
 
-# DeepCSP for generating crystal structure structure. #
+## DeepCSP for generating crystal structure structure. ##
 By implementing DeepCSP, users can generate crystal structures for marketed drugs and evaluate the accuracy of the generated crystal structures against their real counterparts.
 
-## Dependency package: ##
+### Dependency package: ###
 ctgan == 0.5.0
 numpy == 1.19.5
 pandas == 1.1.4
@@ -36,7 +36,7 @@ threadpoolctl == 3.0.0
 torch == 1.10.1
 tqdm == 4.62.3
 
-## Usage instruction: ##
+### Usage instruction: ###
 •	Enter the current directory: 
 cd ./deepcsp/monomorph/ or cd ./deepcsp/polymorph/
 •	Usage:
