@@ -16,10 +16,10 @@ tensorflow == 1.2.0
 •	Enter the current directory: cd ./deepcsp/  
 •	Usage: python predict_test.py [Option]  
 [Option]  
-    -h, --help  --Usage instruction  
-    -t, --test   --Model performance on test data  
-    -d, --drug  --Predicting density for marketed drugs  
-    -c, --case  --Predicting density for case study drugs  
+        -h, --help  --Usage instruction  
+        -t, --test   --Model performance on test data  
+        -d, --drug  --Predicting density for marketed drugs  
+        -c, --case  --Predicting density for case study drugs  
 Note: If the option is NULL, default value "--test" will be used.  
   
 ## DeepCSP for generating crystal structure structure. ##  
