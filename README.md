@@ -1,7 +1,7 @@
 # Organic Crystal Structure Prediction via Coupled Generative Adversarial Networks and Graph Convolutional Networks #  
 
 ## MolGAT for predicting crystal structure density. ##  
-After installing the necessary dependency package, users can follow the usage instructions to validate the MolGAT performance and predict the crystal structure density for both marketed and case study drugs.  
+After installing the necessary dependency packages, users can follow the usage instruction to validate the MolGAT performance and predict the crystal structure density for both marketed drugs and case study compounds.  
 
 ### Dependency packages: ###  
 python == 3.6  
