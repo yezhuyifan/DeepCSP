@@ -4,6 +4,7 @@
 After installing the necessary dependency package, users can follow the usage instructions to validate the MolGAT performance and predict the crystal structure density for both marketed and case study drugs.  
 
 ### Dependency packages: ###  
+python == 3.6  
 autograd == 1.2  
 numpy == 1.19.2  
 pandas == 1.1.2  
@@ -28,6 +29,7 @@ Note: If the option is NULL, default value "--test" will be used.
 By implementing DeepCSP, users can generate crystal structures for marketed drugs and evaluate the accuracy of the generated crystal structures against their real counterparts.  
   
 ### Dependency packages: ###  
+python == 3.6  
 ctgan == 0.5.0  
 numpy == 1.19.5  
 pandas == 1.1.4  
