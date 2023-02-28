@@ -3,7 +3,7 @@
 ## MolGAT for predicting crystal structure density. ##  
 After installing the necessary dependency package, users can follow the usage instructions to validate the MolGAT performance and predict the crystal structure density for both marketed and case study drugs.  
 
-### Dependency package: ###  
+### Dependency packages: ###  
 autograd == 1.2  
 numpy == 1.19.2  
 pandas == 1.1.2  
@@ -15,11 +15,13 @@ tensorflow == 1.2.0
 ### Usage instruction: ###  
 •	Enter the current directory: cd ./deepcsp/  
 •	Usage: python predict_test.py [Option]  
+  
 [Option]  
         -h, --help  --Usage instruction  
         -t, --test   --Model performance on test data  
         -d, --drug  --Predicting density for marketed drugs  
         -c, --case  --Predicting density for case study drugs  
+  
 Note: If the option is NULL, default value "--test" will be used.  
   
 ## DeepCSP for generating crystal structure structure. ##  
@@ -40,6 +42,6 @@ tqdm == 4.62.3
 •	Enter the current directory:   
 cd ./deepcsp/monomorph/ or cd ./deepcsp/polymorph/  
 •	Usage:  
-Generate crystal structures for monomorph or polymorph drugs: python generate.py  
-Evaluate the generated crystal structures: python evaluate.py  
+Generate crystal structures for monomorph or polymorph drugs: python generate.py.  
+Evaluate the generated crystal structures: python evaluate.py.  
 We have provided the real structures and generated crystal structures of the marketed drugs.  
