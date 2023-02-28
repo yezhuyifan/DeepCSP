@@ -47,3 +47,4 @@ cd ./deepcsp/monomorph/ or cd ./deepcsp/polymorph/
 Generate crystal structures for monomorph or polymorph drugs: python generate.py.  
 Evaluate the generated crystal structures: python evaluate.py.  
 We have provided the real structures and generated crystal structures of the marketed drugs.  
+ 
