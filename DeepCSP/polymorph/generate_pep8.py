@@ -68,7 +68,6 @@ def generate(i):
                         }
 
         print('Sampling...')
-        # num_samples = N_SAMPLES
         try:
             new_samples = model.sample(
                                         N_SAMPLES, 
