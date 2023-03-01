@@ -26,7 +26,7 @@ tensorflow == 1.2.0
 Note: If the option is NULL, default value "--test" will be used.  
   
 ## DeepCSP for generating crystal structure structure. ##  
-By implementing DeepCSP, users can generate crystal structures for marketed drugs and evaluate the accuracy of the generated crystal structures against their real counterparts.  
+By implementing DeepCSP, users can generate crystal structures for marketed drugs, rank the drug crystal structures by the density-based method, and evaluate the accuracy of the generated crystal structures against their real counterparts.  
   
 ### Dependent packages: ###  
 python == 3.6  
